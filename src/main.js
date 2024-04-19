@@ -1,7 +1,15 @@
-import "./style.css";
+function saludar () {
 
-//Ticket de cena = 120€
-//Bebidas = 18€
-//Ticket de cena - bebidas / 6 amigos
+//Leer los valores
+const nombre = document.getElementById("nombre").value;
+const apellido = document.getElementById("apellido").value;
 
-console.log((120-18)/6)
+//Concatenar los valores
+const resultado = `¡Hola ${nombre} ${apellido}!`;
+
+//Mostrar el resultado
+document.getElementById("resultado").innerHTML = resultado;
+}
+
+const botonSaludar = document.getElementById("saludar");
+botonSaludar.addEventListener("click", saludar)
