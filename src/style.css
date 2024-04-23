@@ -10,7 +10,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.numero-turno {
+#contador {
   font-size: 6rem;
   font-weight: bold;
   margin: 0;
@@ -32,17 +32,21 @@
 #reset {
  color: red;
 }
-/*
-#siguiente {
-  background-color: greenyellow;
-  border-radius: 5px;
-  border: 1px solid;
-  border-color: #ddd;
+
+#new {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-#anterior {
-  background-color: rgb(47, 255, 217);
-  border-radius: 5px;
-  border: 1px solid;
-  border-color: #ddd;
+#newnumber {
+  display: flex;
+  margin-left: 20px;
+}
+
+#newnmb {
+  display: flex;
+  margin-left: 10px;
+  width: 30px;
+  background-color: #ddd;
 }

@@ -5,17 +5,21 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Laboratorio Módulo 4 - Funciones</title>
+    <title>Vite + TS</title>
   </head>
   <body>
     <div class="turno-display">
-      <h1 class="numero-turno">01</h1>
+      <div id="contador">00</div>
       <p class="texto-turno">Por favor, acérquese al mostrador</p>
     </div>
     <div class="botones">
       <button id="anterior">Anterior</button>
       <button id="reset">Reset</button>
       <button id="siguiente">Siguiente</button>
+    </div>
+    <div id="new">
+     <button id="newnumber">Cambiar el turno</button>
+     <input id="newnmb">
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
